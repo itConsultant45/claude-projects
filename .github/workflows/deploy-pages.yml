@@ -2,7 +2,7 @@ name: Deploy simple-web-app to GitHub Pages
 
 on:
   push:
-    branches: [main, claude/github-static-site-app-izah3z]
+    branches: [main]
     paths: ["simple-web-app/**", ".github/workflows/deploy-pages.yml"]
   workflow_dispatch:
 
